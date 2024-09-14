@@ -1,0 +1,142 @@
+/* Styling form and resume sections */
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(21, 9, 9);
+}
+
+form {
+    margin: auto;
+    background-color: rgb(228, 242, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(231, 229, 240);
+}
+
+fieldset {
+    border: 3px solid rgb(13, 143, 194);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(223, 218, 218);
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #010203db;
+}
+
+label {
+   font-size: 15px;
+    display: block;
+    margin-top: 10px;
+    color: rgb(17, 12, 12);
+
+}
+
+textarea {
+   display: block;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgb(8, 13, 16);
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid rgb(12, 23, 28);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: rgb(54, 177, 225);
+    color: rgb(7, 5, 5);
+    border: none;
+    border-radius: 4px;
+    box-shadow: none;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button :hover {
+    color: rgb(248, 248, 254);
+}
+
+#resume-display {
+    border: solid 1px ;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(139, 181, 220);
+    
+}
+
+#resume-display {
+    color: rgb(15, 16, 16);
+}
+#shareable-link-container {
+    padding: 20px;
+    background-color:beige;
+    border-radius: 10px;
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #shareable-link-container h2 {
+    font-size: 24px;
+    color: #131010;
+  }
+  
+  #shareable-link-container p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #shareable-link {
+    font-size: 14px;
+    color: blue;
+    text-decoration: none;
+  }
+  
+  #shareable-link:hover {
+    text-decoration: underline;
+  }
+  
+  #download-pdf {
+    background-color: #4c92af;
+    color: rgb(10, 7, 7);
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #download-pdf:hover {
+    background-color: #56ade7;
+  } 
+
